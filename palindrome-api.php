@@ -13,5 +13,5 @@
         ];
         return json_encode($pal);
     }
-    echo is_palindrome("maam");
+    echo is_palindrome($_GET['string']);
 ?>
